@@ -12,6 +12,6 @@ A Firefox Extension that allows you to format JSON in browser. Unlike other form
 # Note
 Jipy will perform JSON extraction when the highlight portion is not a valid JSON.
 ## Support on Beerpay
-Like the project? support me with couple of :beers:!
+Like the project? buy me a couple of :beers:!
 
 [![Beerpay](https://beerpay.io/twskj/FireFoxExt-JSON-In-Place/badge.svg?style=beer-square)](https://beerpay.io/twskj/FireFoxExt-JSON-In-Place)  [![Beerpay](https://beerpay.io/twskj/FireFoxExt-JSON-In-Place/make-wish.svg?style=flat-square)](https://beerpay.io/twskj/FireFoxExt-JSON-In-Place?focus=wish)
