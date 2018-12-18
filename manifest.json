@@ -1,7 +1,7 @@
 // REF: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json
 {
-    "name": "Jipy (JSON In Place)",
-    "short_name": "JiPy",
+    "name": "Jipy",
+    "short_name": "Jipy",
     "version": "0.0.2",
     "description": "Format JSON In Place",
     // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_action
