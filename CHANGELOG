@@ -1,3 +1,7 @@
+v0.1.1 [Dec 25, 2018]
+- fixed leading whitespace bug
+- crushed pngs
+
 v0.1.0 [Dec 25, 2018]
 - extract json instead of guessing {},[]
 - using innerHTML instead of adding DOM
