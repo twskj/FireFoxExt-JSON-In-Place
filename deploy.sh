@@ -7,3 +7,4 @@ rm ../firefox-jipy.zip
 cd ../jipy
 zip -r firefox-jipy.zip * 
 mv firefox-jipy.zip ../firefox-jipy.zip
+rm -rf ../jipy
