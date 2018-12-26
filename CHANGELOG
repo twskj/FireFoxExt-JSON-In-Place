@@ -1,3 +1,6 @@
+v0.1.2 [Dec 26, 2018]
+- Improve searching performance
+
 v0.1.1 [Dec 25, 2018]
 - fixed leading whitespace bug
 - crushed pngs
@@ -6,5 +9,6 @@ v0.1.0 [Dec 25, 2018]
 - extract json instead of guessing {},[]
 - using innerHTML instead of adding DOM
 - flash feedback when cannot parse
+
 v0.0.1 [Dec 15, 2018]
 - working POC
