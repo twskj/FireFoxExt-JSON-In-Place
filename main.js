@@ -356,7 +356,7 @@ function wrapWithPreCode(node, prefix, formattedText, text) {
     prefix = html.substr(0, start);
     var suffix = html.substr(end + 1);
 
-    node.innerHTML = `${prefix}<div><pre><code>${escapeHtml(formattedText)}</pre></code></div>${suffix}`;
+    node.innerHTML = `${prefix}<div style="text-align:left"><pre><code>${escapeHtml(formattedText)}</pre></code></div>${suffix}`;
 }
 
 function replaceAsIs(node, prefix, text, suffix) {
@@ -506,7 +506,7 @@ chrome.runtime.onMessage.addListener(
                 return;
             }
             if (node.nodeType === 3) { // TEXT NODE SEE: https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType#Constants
-                node = node.parentNode
+                node = node.parentNode;
             }
             // SEE: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#Differences_from_innerText
             if (!node.innerText.includes(selectedText)) {
